@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="@color/textColorlogo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/abril_fatface"
+        android:textAlignment="center"
+        android:textColor="@color/textColorHint"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginHorizontal="100sp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/hint_user_field"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColorHint"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginHorizontal="110sp"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/abril_fatface"
+        android:text="@string/main_btn" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_btn"
+        android:layout_marginHorizontal="110sp"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/abril_fatface"
+        android:textAlignment="center"
+        android:textColor="@color/textColor1"
+        android:textSize="25sp" />
+
+</RelativeLayout>
