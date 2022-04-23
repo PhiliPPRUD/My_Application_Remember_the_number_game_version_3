@@ -3,4 +3,5 @@
     <string name="logo">Запомни число</string>
     <string name="hint_user_field">Введи число</string>
     <string name="main_btn">Ответ</string>
+    <string name="further_btn">Далее</string>
 </resources>

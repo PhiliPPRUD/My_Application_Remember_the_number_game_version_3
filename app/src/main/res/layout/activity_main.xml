@@ -66,4 +66,15 @@
         android:textColor="@color/textColor1"
         android:textSize="25sp" />
 
+    <Button
+        android:id="@+id/further_btn"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/further_btn" />
+
 </RelativeLayout>
