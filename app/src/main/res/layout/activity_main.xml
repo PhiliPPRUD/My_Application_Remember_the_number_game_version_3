@@ -73,8 +73,40 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/user_field"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="11dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="12sp"
         android:text="@string/further_btn" />
+
+    <Button
+        android:id="@+id/level_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_info"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32sp"
+        android:layout_marginTop="30sp"
+        android:text="@string/level_btn1" />
+
+    <Button
+        android:id="@+id/level_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_info"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="30sp"
+        android:layout_toEndOf="@+id/level_btn1"
+        android:text="@string/level_btn2" />
+
+    <Button
+        android:id="@+id/level_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result_info"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="32sp"
+        android:layout_toEndOf="@+id/level_btn2"
+        android:text="@string/level_btn3" />
 
 </RelativeLayout>

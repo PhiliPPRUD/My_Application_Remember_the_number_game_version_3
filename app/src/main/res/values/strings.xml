@@ -4,4 +4,7 @@
     <string name="hint_user_field">Введи число</string>
     <string name="main_btn">Ответ</string>
     <string name="further_btn">Далее</string>
+    <string name="level_btn1">1 LVL</string>
+    <string name="level_btn2">2 LVL</string>
+    <string name="level_btn3">3 LVL</string>
 </resources>
